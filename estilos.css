@@ -1,0 +1,592 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins';
+  box-sizing: border-box;
+}
+/* MENU */
+.hamburger {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+}
+section {
+  margin-top:80px ;
+}
+
+.contenedor {
+  width: 90%;
+  max-width: 1280px;
+  margin: auto;
+}
+
+.menu {
+  background: #fff;
+  padding: 9px 20px;
+  height: 70px;
+}
+.menu-hamburgesa{
+  z-index: 0;
+}
+
+.menu .contenedor {
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+nav ul li a {
+  color: #000;
+}
+
+/* INTRO-PORTADA */
+
+#intro {
+  background: url(img/back.jpg);
+  text-align: center;
+  
+  margin-top: -60px;
+  background-size: cover;
+  background-position: 57% 48%;
+  height: 490px;
+}
+
+#intro h1 {
+  font-family: 'Playfair Display';
+  font-size: 72px;
+  color: #fff;
+  font-weight: normal;
+  padding-top: 60px;
+}
+
+#intro p {
+  color: #bfbfbf;
+  font-size: 18px;
+  line-height: 36px;
+  width: 60%;
+  margin: auto;
+}
+
+#intro .menu {
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 9px;
+  background: transparent;
+}
+
+#intro .reservation {
+  color: #fff;
+  padding: 9px;
+  background: #c39d63;
+  border: 1px solid #fff;
+}
+
+#intro .botones {
+  margin-top: 50px;
+}
+
+#intro .botones a {
+  margin-right: 20px;
+  padding: 9px 23px;
+}
+
+/* OUR STORY */
+
+#our-story {
+  padding: 90px 0;
+}
+
+#our-story .contenedor {
+  display: flex;
+  justify-content: center;
+}
+
+.our-story {
+  color: #bfbfbf;
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+
+#our-story hr {
+  width: 40px;
+  float: left;
+  border-color: #C29D63;
+}
+
+#our-story h2, #testimonials h2 {
+  margin-top: 50px;
+  font-size: 48px;
+  font-family: 'Playfair Display';
+  font-weight: 300;
+}
+
+#our-story .texto, .testimonial .texto {
+  font-size: 15px;
+  color: #939393;
+  line-height: 24px;
+  width: 88%;
+}
+#our-story h2 {
+  font-size: 20px;
+}
+
+#our-story .izquierda {
+  width: 45%;
+}
+
+
+/* menu patillos */
+
+#menu {
+  background: #1F1F1F;
+
+}
+
+#menu .foto {
+  background: url(img/cangrejo.png);
+  width: 300px;
+  height: 275px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#menu .linea1 div, #menu .linea2 div {
+  display: inline-block;
+  width: 32.1%;
+}
+
+#menu .linea1, #menu .linea2 {
+  background: #fff;
+  text-align: center;
+}
+
+#menu li {
+  list-style: none;
+}
+
+#menu .precio {
+  color: #C29D62;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+#menu .titulo {
+  font-family: 'Playfair Display';
+  font-size: 24px;
+  font-weight: 100;
+}
+
+#menu .parrafo {
+  color: #939393;
+  line-height: 30px;
+  margin-top: 20px;
+}
+
+#menu .hongos {
+  background: url(img/hongos.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+#menu .pez {
+  background: url(img/pez.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+#menu .contenedor {
+  max-width: 1130px;
+}
+
+#menu ul {
+  margin: 0;
+  padding: 0;
+}
+
+#menu .texto {
+  position: relative;
+  top: -30px;
+}
+
+#menu .linea2 {
+  height: 275px;
+}
+
+/* TESTIMONIOS */
+
+#testimonials {
+  text-align: center;
+  background: #F7F7F7;
+  padding: 30px 0;
+}
+
+#testimonials .titulo {
+  color: #bfbfbf;
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+
+
+.contenedor-testimonials {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  justify-content: center;
+}
+
+.testimonial {
+  width: 25%;
+  text-align: left;
+}
+
+.testimonial img {
+  width: 55%;
+}
+
+
+
+/* CONTACTO */
+
+#contacto {
+  background: url(img/restaurant.jpg);
+  color: #fff;
+  text-align: center;
+  padding: 90px 0;
+}
+
+#contacto .contenedor {
+  display: flex;
+  justify-content: center;
+}
+#contacto .izquierda, #contacto .derecha {
+  background: #1F1F1F;
+  padding: 77px 29px;
+  margin: 20px;
+}
+
+
+#contacto ul {
+  border-bottom: 2px solid #C29D62;
+  padding: 0;
+  margin: 0;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+ul#tercero {
+  border-bottom: 0px;
+}
+
+#contacto ul li {
+  list-style: none;
+  font-size: 15px;
+}
+
+#contacto h2 {
+  font-family: 'Playfair Display';
+  font-size: 32px;
+  font-weight: 100;
+}
+
+#contacto ul li:nth-child(1) {
+  font-weight: bold;
+}
+
+#contacto a {
+  color: #fff;
+  padding: 9px;
+  background: #c39d63;
+  letter-spacing: 2px;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+#contacto h3 {
+  font-size: 23px;
+  font-weight: 100;
+  margin: 0;
+}
+
+#contacto .derecha p {
+  opacity: 0.8;
+  width: 70%;
+  margin: auto;
+}
+
+#contacto .derecha a {
+  padding: 9px 12px;
+}
+
+#contacto h3.news {
+  margin-top: 67px;
+}
+
+#contacto form {
+  margin-top: 25px;
+}
+
+input[type="text"] {
+  width: 72%;
+  border: 0;
+  background: #111111;
+  padding: 15px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+::placeholder {
+  color: #cdcdcd;
+}
+
+::-ms-input-placeholder {
+  color: #cdcdcd;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 79%;
+  margin: auto;
+  border: 0;
+  background: #C29D63;
+  color: #fff;
+  padding: 11px 0;
+  font-size: 16px;
+}
+
+#contacto .izquierda, #contacto .derecha {
+  width: 40%;
+}
+
+#contacto .derecha {
+  width: 40%;
+}
+
+@media screen and (max-width: 850px) {
+  nav {
+    z-index: 0;
+    position:absolute;
+    top: 100px;
+    height: 280px;
+    left: 0;
+    background: #000;
+    width: 100%;
+    transform: translateX(-160%);
+    transition: .8s ease-out;
+  }
+  .show{
+    transform: translate(0%);
+  }
+
+  nav ul li {
+    display: block;
+    margin-bottom: 25px;
+    padding: 8px 0;
+  }
+
+  nav ul li a {
+    
+    color: #fff;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  header .logo {
+      font-size: 30px;
+  }
+  .contenedor-titulo{
+    font-size: 18px;
+  }
+
+  #intro {
+    margin-top: -35px;
+  }
+
+  #intro h1 {
+    font-size: 67px;
+  }
+
+  #intro p {
+      color: #bfbfbf;
+      font-size: 20px;
+      line-height: 35px;
+      width: 80%;
+      margin: auto;
+  }
+
+  #our-story .contenedor {
+    flex-direction: column;
+  }
+
+  #our-story .izquierda {
+      width: 100%;
+  }
+
+  #our-story .derecha img {
+    width: 100%;
+  }
+
+  #menu .linea1 div, #menu .linea2 div {
+    
+      width: 70%;
+  }
+  .linea1 .cangrejo{
+    width: 100%;
+  }
+  
+
+  .linea2 .hongos {
+    width: 100vw ;
+  
+  }
+
+  #menu {
+      background: #1F1F1F;
+      height: 1625px;
+  }
+
+  #menu #ultimo {
+    width: 70% 
+  }
+  .texto{
+    margin-top: 63px ;
+  }
+  .linea2 .pez {
+    width: 100vw}
+
+  #menu .linea2 {
+      height: 909px;
+  }
+
+.contenedor-testimonials {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  .testimonial {
+    width: 88%;
+    text-align: center;
+    margin-top: 16px;
+  }
+  .testimonial .texto{
+    margin: auto;
+  }
+
+  #contacto .contenedor {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      text-align: center;
+      width: 100%;
+  }
+
+  #contacto .izquierda, #contacto .derecha {
+      width: 100%;
+  }
+.izquierda{ margin:auto
+  }
+  .derecha {
+
+      margin: 57px 0;
+  }
+  #our-story .text{
+    margin: 0PX;
+  }
+
+}
+@media screen and (max-width: 650px) {
+  
+    .menu{
+      height: 0PX;
+    }
+    .contenedor .logo{
+      font-size: 16PX;
+      text-align: center;
+    }
+    #intro{
+      margin-top: 55px;
+      height: 560px;
+    }
+    #intro h1{
+      font-size: 35px;
+    }
+    #intro p{
+      font-size: 16px;
+      line-height: 25px;
+    }
+
+    #intro .botones a {
+      margin-right: 0;
+    }
+
+    nav{
+      top: 70px;
+    }
+    #menu{
+      height: 1710px;
+    }
+    #menu .linea2 {
+      height: 1699px;
+  }
+  }
+@media screen and (max-width:567px) {
+  #menu{
+    height: 1720px;
+  }
+}
+@media screen and (max-width:537px) {
+  #menu{
+    height: 1810px;
+  }
+}
+@media screen and (max-width:567px) {
+  #menu{
+    height: 1830px;
+  }
+}
+@media screen and (max-width:445px) {
+  #menu{
+    height: 1860px;
+  }
+}
+@media screen and (max-width:400px) {
+  #menu{
+    height: 1890px;
+  }
+}
+
+@media screen and (max-width:346px) {
+
+  #intro .reservation{
+    padding: 2px;
+    opacity: 0;
+  }
+
+  .linea1 .texto , .linea2 .texto{
+    font-size: 15px;
+  }
+  
+  #menu{
+    height: 1999px;
+  }
+}
+
